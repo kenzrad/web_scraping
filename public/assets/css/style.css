@@ -1,0 +1,64 @@
+/* classes */
+.title-container h1 {
+    text-align: center;
+}
+
+.title-container h4 {
+    text-align: justify;
+}
+
+
+.articles-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: -2px 4px 4px rgba(129, 127, 127, 0.5);
+}
+
+.article-link {
+    font-style: underline;
+    cursor: pointer
+}
+
+.hidden {
+    display: none;
+}
+
+.hideNotes {
+    font-size: 0.5em;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.notes-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 300px;
+    width: 50%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    overflow: auto;
+    background: palegoldenrod;
+    opacity: 0.95;
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, .5);
+}
+
+.notes-container h5 {
+    color: teal;
+    
+}
+
+.note-row {
+    border-bottom: solid;
+    border-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+.noteBtn {
+    color: teal;
+    cursor: pointer
+}
+
+.title-div {
+    border-bottom: solid;
+    border-color: teal;
+    border-bottom-width: 1px;
+}
