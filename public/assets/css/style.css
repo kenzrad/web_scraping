@@ -1,20 +1,25 @@
-/* classes */
-.title-container h1 {
-    text-align: center;
+body {
+    background-color: lightblue;
 }
 
-.title-container h4 {
-    text-align: justify;
+/* classes */
+.title-container {
+    text-align: center;
+    background-color: rgb(129, 185, 204);
+}
+
+.title-container h1 p {
+    text-align: center
 }
 
 
 .articles-container {
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: -2px 4px 4px rgba(129, 127, 127, 0.5);
+    background-color: white;
 }
 
 .article-link {
-    font-style: underline;
     cursor: pointer
 }
 
